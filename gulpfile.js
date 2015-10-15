@@ -2,7 +2,7 @@ var gulp = require('gulp');
 var concat = require('gulp-concat');
 
 var paths = {
-  scripts: ['node_modules/angular/angular.js', 'node_modules/angular-route/angular-route.js', 'javascript/app.js'],
+  scripts: ['bower_components/angular/angular.js', 'bower_components/angular-route/angular-route.js', 'javascript/app.js'],
 };
 
 // Not all tasks need to use streams
