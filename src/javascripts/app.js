@@ -1,9 +1,9 @@
-var app = angular.module('mewmeApp', ['ngRoute']);
+var app = angular.module('seedApp', ['ngRoute']);
 
 app.config(function($routeProvider, $locationProvider) {
   $routeProvider
    .when('/', {
-    templateUrl: '/partials/mewme-index'
+    templateUrl: '/partials/test'
   })
   .otherwise({
       redirectTo: '/'
