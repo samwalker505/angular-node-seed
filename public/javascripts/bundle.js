@@ -29898,11 +29898,11 @@ var app = angular.module('mewmeApp', ['ngRoute']);
 
 app.config(function($routeProvider, $locationProvider) {
   $routeProvider
-   .when('/test', {
-    templateUrl: '/partials/test'
+   .when('/', {
+    templateUrl: '/partials/mewme-index'
   })
   .otherwise({
-      redirectTo: '/test'
+      redirectTo: '/'
     })
   // configure html5 to get links working on jsfiddle
 
