@@ -3,5 +3,7 @@ html
   head
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
-  body
+    base(href='/')
+    script(type="text/javascript", src="/javascripts/bundle.js")
+  body(ng-app="app")
     block content
